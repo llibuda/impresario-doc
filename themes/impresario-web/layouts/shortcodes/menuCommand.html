@@ -1,0 +1,5 @@
+{{ if len .Params | eq 2 }}
+<code class="menu_command"><img src="{{ .Page.Site.BaseURL }}{{ printf "/%s/%s" "resources/images" (.Get 0) }}"/>&nbsp;{{ .Get 1 }}</code>
+{{else}}
+<code class="menu_command">{{ .Get 0 }}</code>
+{{end}}

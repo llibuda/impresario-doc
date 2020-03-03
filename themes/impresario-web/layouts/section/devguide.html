@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+<div class="row">
+  <div class="col-sm-10 doc-main">
+    <main role="main">
+      <article>
+        <h1 class="doc-entry-title">Developer's Guide overview</h1>
+        <section>
+        <p>The Developer's Guide explains how to develop your own library
+           exposing your algorithms to Impresario.
+        </p>
+        <p>It also gives more details about Impresario's architecture.
+        </p>
+        <p>The following chapters are available:
+        </p>
+        <ol>
+        {{ range .Data.Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">
+            {{ .Title }}
+            </a>
+            <p>
+            {{ .Description }}
+            </p>
+          </li>
+        {{ end }}
+        </ol>
+        </section>
+      </article>
+    </main>
+  </div>
+</div>  
+{{ partial "footer.html" . }}

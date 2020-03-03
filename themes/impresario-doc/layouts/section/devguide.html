@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+<main>
+  <article>
+    <p>The Developer's Guide explains how to develop your own library
+       exposing your algorithms to Impresario.
+    </p>
+    <p>
+       It also gives more details about Impresario's architecture.
+    </p>
+    <p>
+       The following chapters are available:
+    </p>
+    <ol>
+    {{ range .Data.Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </a>
+        <p>
+          {{ .Description }}
+        </p>
+      </li>
+    {{ end }}
+    </ol>
+  </article>
+  <aside>
+  </aside>
+</main>
+{{ partial "footer.html" . }}

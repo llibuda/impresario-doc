@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+<main>
+  <article>
+    <p>The User's Guide contains information on how to operate Impresario
+       in daily use.
+    </p>
+    <p>
+       It gives a detailed introduction in its purposes, explains how to
+       install and configure Impresario, and finally provides information
+       about how to use all built-in features in the most efficient way.
+    </p>
+    <p>
+       The following chapters are available:
+    </p>
+    <ol>
+    {{ range .Data.Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </a>
+        <p>
+          {{ .Description }}
+        </p>
+      </li>
+    {{ end }}
+    </ol>
+  </article>
+  <aside>
+  </aside>
+</main>
+{{ partial "footer.html" . }}

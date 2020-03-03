@@ -1,0 +1,5 @@
+# Ignore all public* directories
+/public*/
+
+# Ignore Qt compiled help files
+*.qch

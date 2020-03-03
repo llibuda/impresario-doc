@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+<main role="main">
+  <ol>
+  {{ range .Data.Pages }}
+    <li>
+		  <a href="{{ .RelPermalink }}">
+			  {{ .Title }}
+		  </a>
+    </lI>
+  {{ end }}
+  </ol>
+</main>
+{{ partial "footer.html" . }}

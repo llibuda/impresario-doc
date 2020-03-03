@@ -1,0 +1,287 @@
+/**********************************************
+ *                                            *
+ * Styles for screen layout of documentation  *
+ *                                            *
+ **********************************************/
+ 
+/* body for all elements */
+/*-----------------------*/
+body {
+  font-size: 12pt;
+  font-family: Helvetica, Arial, sans-serif
+  text-align: left;  
+  margin: 0;
+}
+
+/* elements for header   */
+/*-----------------------*/
+header {
+  border: 1px solid;
+  color: rgb(70,70,70);
+  background-color: rgb(235,235,193);
+  border-color: rgb(235,235,193);
+}
+  
+header h1 {
+  margin: 0;
+}
+
+/* breadcrumbs navigation*/
+/*-----------------------*/
+nav#breadcrumb {
+  background:rgb(255,255,225);
+  border-bottom: 2px solid rgb(235,235,193);
+  font-size: 10pt;
+}
+
+nav#breadcrumb ul {
+  padding: 5px 10px;
+  list-style: none;
+  display: inline;
+}
+
+nav#breadcrumb ul li {
+  display: inline;
+}
+
+nav#breadcrumb ul li:before {
+  content: "\25BA";
+}
+
+nav#breadcrumb ul li:first-child:before {
+  content: "";
+}
+
+nav#breadcrumb a {
+  font-weight: normal;
+}
+
+/* elements for footer   */
+/*-----------------------*/
+footer {
+  border: 1px solid;
+  color:rgb(70,70,70);
+  background-color: rgb(235,235,193);
+  border-color: rgb(235,235,193);
+}
+
+/* main content part     */
+/*-----------------------*/
+main {
+  display: flex;
+	display: -webkit-flex;
+  flex: 1 100%;
+  -webkit-flex: 1 100%;
+  flex-flow: row wrap-reverse;
+	-webkit-flex-flow: row wrap-reverse;  
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 815px;
+}
+
+article {
+  line-height: 1.5;  
+  padding: 0.5em;
+  border: 1px;
+  max-width: 615px;
+  min-width: 400px;
+  flex: 3 1 0%;
+  -webkit-flex: 3 1 0%;
+}
+
+/* table of contents     */
+/*-----------------------*/
+aside {
+  border: 1px;
+  flex: 1 1 0%;
+  -webkit-flex: 1 1 0%;
+}
+
+div#TableOfContents {
+  margin: 10px;
+  border: 1px solid rgb(170,170,170);
+  padding: 0;
+  border-radius: 10px;
+  position: fixed;
+}
+
+div#TableOfContents p {
+  margin:0;
+  border: 0;
+  padding: 5px;
+  color:rgb(70,70,70);
+  background: rgb(170,170,170);
+  border-radius: 9px 9px 0px 0px;
+  font-size: 12pt;
+}
+
+nav#TableOfContents ul{
+  list-style: none;
+  margin: 0;
+  padding: 0.5em; 
+  font-size: 10pt;
+}
+
+nav#TableOfContents ul li {
+  margin: 0; 
+  border: 0;
+  padding: 0;
+}
+
+nav#TableOfContents  ul a {
+  font-weight: normal;
+}
+
+/* content elements      */
+/*-----------------------*/
+figure{
+  margin: 10pt;
+  display: inline-block;
+  position: relative;
+}
+
+figure.float{
+  float: right;
+  max-width: 50%;
+  clear: both;
+}
+
+figure.float_fix{
+  float: right;
+  max-width: 50%;
+  clear: both;
+}
+
+figure.float_fix  + *:after{
+  content: "."; 
+  display: block; 
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure figcaption {
+  position: absolute; 
+  bottom: 0;          
+  padding: 3px;
+  width: 100%;        
+  height: 2em;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+figure figcaption h4 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 10pt;
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: blue; 
+}
+
+a:visited {
+  color: blue; 
+}
+
+a:hover {
+  color: darkblue; 
+}
+
+a:active {
+  color: darkblue; 
+}
+
+/*
+ * Table elements
+ */
+ 
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  vertical-align: top;
+}
+
+/*
+ * Menu command shortcode
+ */
+
+code.menu_command {
+  color: black;
+  font-weight: bold;
+}
+ 
+img.menu_command {
+  display: inline;
+  vertical-align: middle;
+}
+
+/*
+ * path shortcode
+ */
+
+code.path {
+  color: darkgreen;
+  font-style: normal;
+  background-color: transparent;
+}
+
+/*
+ * Tables for API Reference
+ */
+table.apidescription {
+  table-layout: auto;
+  width: auto;
+}
+
+table.apidescription td{
+  vertical-align: top;
+}
+
+table.apidescription dt {
+  font-weight: bold;
+}
+
+table.apidescription dd table {
+  table-layout: auto;
+}
+
+table.apidescription dd table td {
+  vertical-align: top;
+}
+
+table.apideclaration {
+  table-layout: auto;
+  width: auto;
+}
+
+table.apideclaration td{
+  white-space:nowrap;
+  vertical-align: top;
+}
+
+/* content pane for      */
+/* doxygen               */
+/*-----------------------*/
+div#doxygen {
+  margin: 0px 0px 0px 187px;
+  border: 0;
+  padding:1em;
+}

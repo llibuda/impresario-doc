@@ -1,0 +1,18 @@
+name = "Impresario web documentation"
+license = "MIT"
+licenselink = ""
+description = "Hugo theme based on Bootstrap for Impresario documentation"
+homepage = ""
+tags = ["document", "bootstrap"]
+features = ["document", ""]
+min_version = 0.13
+
+[author]
+  name = "Lars Libuda"
+  homepage = ""
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

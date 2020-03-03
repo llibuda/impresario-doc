@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>impresario.2.1</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <customFilter>
+        <filterAttribute>impresario</filterAttribute>
+        <filterAttribute>2.1</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>impresario</filterAttribute>
+        <filterAttribute>2.1</filterAttribute>
+        <toc>
+            <section title="Impresario 2.1" ref="index.html">
+                <section title="User's Guide" ref="userguide.html">
+                    <section title="Introduction" ref="userguide/introduction.html"/>
+                    <section title="Installing Impresario" ref="userguide/install.html"/>
+                    <section title="Introducing Impresario's GUI" ref="userguide/guioverview.html"/>
+                    <section title="Editing process graphs" ref="userguide/createprocessgraph.html"/>
+                    <section title="Running process graphs" ref="userguide/runprocessgraph.html"/>
+                    <section title="Reference: Macro database window" ref="userguide/macrodb.html"/>
+                    <section title="Reference: Property window" ref="userguide/propwnd.html"/>
+                    <section title="Reference: Settings" ref="userguide/settings.html"/>
+                    <section title="Reference: Commands" ref="userguide/menu.html"/>
+                    <section title="Reference: Auxiliary docking windows" ref="userguide/auxdocks.html"/>
+                    <section title="Release History" ref="userguide/history.html"/>
+                </section>
+                <section title="Developer's Guide" ref="devguide.html">
+                    <section title="Setup of Development Environment" ref="devguide/devenvironment.html"/>
+					<section title="Build Impresario from source" ref="devguide/buildimpresario.html"/>
+					<section title="Creating a macro project" ref="devguide/createmacroproject.html"/>
+					<section title="Creating a macro" ref="devguide/macrotutorial1.html">
+					    <section title="Setting up macro information" ref="devguide/macrotutorial2.html"/>
+						<section title="Setting up macro input and output ports" ref="devguide/macrotutorial3.html"/>
+						<section title="Setting up macro parameters" ref="devguide/macrotutorial4.html"/>
+						<section title="Processing data" ref="devguide/macrotutorial5.html"/>
+					</section>
+					<section title="Advanced parameter presentation" ref="devguide/advancedparameter.html"/>
+					<section title="Macro API Reference" ref="devguide/apireference.html"/>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword id="Impresario-Mainpage" ref="index.html"/>
+            <keyword name="Settings" id="Impresario-Settings" ref="userguide/settings.html"/>
+            <keyword name="Directory settings" id="Impresario-Settings-Directories" ref="userguide/settings.html#directories"/>
+            <keyword name="Process graph directory" id="Impresario-Settings-Process-Graph-Directory" ref="userguide/settings.html#process-graphs"/>
+            <keyword name="Macro library directories" id="Impresario-Settings-Macro-Library-Directories" ref="userguide/settings.html#macro-libraries"/>
+            <keyword name="Dependent library directories" id="Impresario-Settings-Dependent-Library-Directories" ref="userguide/settings.html#dependent-libraries"/>
+            <keyword name="Documentation directory" id="Impresario-Settings-Documentation-Directory" ref="userguide/settings.html#documentation"/>
+            <keyword name="Resources directory" id="Impresario-Settings-Resources-Directory" ref="userguide/settings.html#resources"/>
+            <keyword name="Macro database settings" id="Impresario-Settings-MacroDB" ref="userguide/settings.html#macro-database"/>
+            <keyword name="Macro database view settings" id="Impresario-Settings-MacroDB-View" ref="userguide/settings.html#view"/>
+            <keyword name="Macro database filter settings" id="Impresario-Settings-MacroDB-Filter" ref="userguide/settings.html#filter"/>
+            <keyword name="Property window settings" id="Impresario-Settings-PropertyWnd" ref="userguide/settings.html#property-window"/>
+            
+            <keyword name="Auxiliary Docking Windows" ref="userguide/auxdocks.html"/>
+            <keyword name="System Messages Dock" ref="userguide/auxdocks.html#system-messages-window"/>
+            <keyword name="Change Log Dock" ref="userguide/auxdocks.html#change-log-window"/>
+            <keyword name="Console Output Dock" ref="userguide/auxdocks.html#console-output-window"/>
+            
+            <keyword name="Create process graph" ref="userguide/createprocessgraph.html"/>
+            <keyword name="Add macro" ref="userguide/createprocessgraph.html#adding-macros-to-a-process-graph"/>
+            <keyword name="Create link" ref="userguide/createprocessgraph.html#creating-links-between-macros"/>
+            <keyword name="Resolving Loops" ref="userguide/createprocessgraph.html#resolving-loops"/>
+            <keyword name="Edit operations" ref="userguide/createprocessgraph.html#standard-edit-operations"/>
+            <keyword name="Undo and Redo" ref="userguide/createprocessgraph.html#undo-and-redo"/>
+            
+            <keyword name="GUI overview" ref="userguide/guioverview.html"/>
+            <keyword name="Process graph editor" ref="userguide/guioverview.html#process-graph-editor"/>
+            <keyword name="Macro instances" ref="userguide/guioverview.html#macro-instances"/>
+            <keyword name="Links" ref="userguide/guioverview.html#links"/>
+            <keyword name="Context menus" ref="userguide/guioverview.html#context-menus"/>
+            
+            <keyword name="Installation" ref="userguide/install.html"/>
+            <keyword name="Installation on Windows" ref="userguide/install.html#installation-on-windows"/>
+            <keyword name="Installation on Linux" ref="userguide/install.html#installation-on-windows"/>
+            <keyword name="Uninstallation" ref="userguide/install.html#uninstall-impresario"/>
+            
+            <keyword name="Introduction" ref="userguide/introduction.html"/>
+            <keyword name="Basic concepts" ref="userguide/introduction.html#basic-concepts-and-features"/>
+            <keyword name="Macro" ref="userguide/introduction.html#macros"/>
+            <keyword name="Macro Library" ref="userguide/introduction.html#macro-libraries"/>
+            <keyword name="Macro Database" ref="userguide/introduction.html#macro-database"/>
+            <keyword name="Process graph" ref="userguide/introduction.html#impresario-process-graphs"/>
+            <keyword name="Data flow engine" ref="userguide/introduction.html#data-flow-engine"/>
+            <keyword name="Multiplatform support" ref="userguide/introduction.html#multi-platform-support"/>
+            <keyword name="Abstraction" ref="userguide/introduction.html#abstraction"/>
+            <keyword name="History" ref="userguide/introduction.html#history"/>
+            
+            <keyword name="Macro Database" ref="userguide/macrodb.html"/>
+            <keyword name="Macro area" ref="userguide/macrodb.html#macro-area"/>
+            <keyword name="Database views" ref="userguide/macrodb.html#view"/>
+            <keyword name="Filter database" ref="userguide/macrodb.html#filter"/>
+            <keyword name="Search database" ref="userguide/macrodb.html#search"/>
+            <keyword name="Information area" ref="userguide/macrodb.html#information-area"/>
+            <keyword name="General information tab" ref="userguide/macrodb.html#general-information-tab"/>
+            <keyword name="Description tab" ref="userguide/macrodb.html#description-tab"/>
+            <keyword name="Macro instances tab" ref="userguide/macrodb.html#instances-tab"/>
+            
+            <keyword name="Commands" ref="userguide/menu.html"/>
+            <keyword name="File menu" ref="userguide/menu.html#file-menu"/>
+            <keyword name="Edit menu" ref="userguide/menu.html#edit-menu"/>
+            <keyword name="View menu" ref="userguide/menu.html#view-menu"/>
+            <keyword name="Control menu" ref="userguide/menu.html#control-menu"/>
+            <keyword name="Extras menu" ref="userguide/menu.html#extras-menu"/>
+            <keyword name="Help menu" ref="userguide/menu.html#help-menu"/>
+            <keyword name="Process graph editor context menu" ref="userguide/menu.html#process-graph-editor-context-menu"/>
+            <keyword name="Macro area context menu" ref="userguide/menu.html#macro-area-context-menu"/>
+            <keyword name="Macro information area context menu" ref="userguide/menu.html#instances-tab-context-menu"/>
+            
+            <keyword name="Property dock" ref="userguide/propwnd.html"/>
+            <keyword name="Settings area" ref="userguide/propwnd.html#settings-area"/>
+            <keyword name="Information area" ref="userguide/propwnd.html#information-area"/>
+            <keyword name="General information tab" ref="userguide/propwnd.html#general-information-tab"/>
+            <keyword name="Description tab" ref="userguide/propwnd.html#description-tab"/>
+            
+            <keyword name="Run process graph" ref="userguide/runprocessgraph.html"/>
+            <keyword name="Control process graph" ref="userguide/runprocessgraph.html#control"/>
+            <keyword name="Macro indications" ref="userguide/runprocessgraph.html#macro-indications"/>
+            <keyword name="Visualization of results" ref="userguide/runprocessgraph.html#visualization-of-results"/>
+            <keyword name="Changing macro parameters" ref="userguide/runprocessgraph.html#changing-parameters-at-runtime"/>
+			
+			<keyword name="Parameter presentation, Advanced" ref="devguide/advancedparameter.html"/>
+			<keyword name="Parameter presentation" ref="devguide/advancedparameter.html"/>
+			<keyword name="Inplace editor component" ref="devguide/advancedparameter.html#use-default-presentation-with-custom-inplace-editors"/>
+			<keyword name="Property Widget" ref="devguide/advancedparameter.html#create-your-own-property-widget"/>
+			<keyword name="QML Interface" ref="devguide/advancedparameter.html#impresarios-qml-interface"/>
+			
+			<keyword name="API Reference" ref="devguide/apireference.html"/>
+			<keyword name="Macro setup API" ref="devguide/apireference.html#macro-setup"/>
+			<keyword name="Macro overridables" ref="devguide/apireference.html#overridables"/>
+			<keyword name="Access methods" ref="devguide/apireference.html#access-methods"/>
+			<keyword name="Message output" ref="devguide/apireference.html#miscellaneous"/>
+			
+			<keyword name="Macro project" ref="devguide/createmacroproject.html"/>
+			<keyword name="Macro Library" ref="devguide/createmacroproject.html"/>
+			<keyword name="Include API" ref="devguide/createmacroproject.html#including-impresario-api"/>
+			<keyword name="Macro project configuration" ref="devguide/createmacroproject.html#library-configuration"/>
+			
+			<keyword name="Development environment" ref="devguide/devenvironment.html"/>
+			<keyword name="Compiler" ref="devguide/devenvironment.html"/>
+			<keyword name="Version control system" ref="devguide/devenvironment.html"/>
+			<keyword name="Git" ref="devguide/devenvironment.html"/>
+			<keyword name="Development environment, Windows" ref="devguide/devenvironment.html#setup-for-windows-systems"/>
+			<keyword name="Development environment, Linux" ref="devguide/devenvironment.html#setup-for-linux-systems"/>
+			
+			<keyword name="Create macro" ref="devguide/macrotutorial1.html"/>
+			<keyword name="Macro base class" ref="devguide/macrotutorial1.html"/>
+			<keyword name="Macro Clone method" ref="devguide/macrotutorial1.html"/>
+			
+			<keyword name="Define macro information" ref="devguide/macrotutorial2.html"/>
+			<keyword name="Macro name" ref="devguide/macrotutorial2.html"/>
+			<keyword name="Macro group" ref="devguide/macrotutorial2.html"/>
+			<keyword name="Macro creator" ref="devguide/macrotutorial2.html"/>
+			<keyword name="Macro description" ref="devguide/macrotutorial2.html"/>
+			
+			<keyword name="Define macro input" ref="devguide/macrotutorial3.html"/>
+			<keyword name="Define macro output" ref="devguide/macrotutorial3.html"/>
+			
+			<keyword name="Parameter presentation" ref="devguide/macrotutorial4.html"/>
+			<keyword name="Define macro parameter" ref="devguide/macrotutorial4.html"/>
+			<keyword name="Parameter presentation, Default" ref="devguide/macrotutorial4.html#defining-parameters-with-default-view"/>
+			<keyword name="Inplace editor component" ref="devguide/macrotutorial4.html#default-parameter-presentation"/>
+			<keyword name="Property Widget" ref="devguide/macrotutorial4.html#default-parameter-presentation"/>
+			<keyword name="QML Interface" ref="devguide/macrotutorial4.html#data-exchange-with-qml"/>
+			
+			<keyword name="Processing data" ref="devguide/macrotutorial5.html"/>
+			<keyword name="Macro overridables" ref="devguide/macrotutorial5.html#overridables"/>
+			<keyword name="Access methods" ref="devguide/macrotutorial5.html#access-methods"/>
+			<keyword name="Message output" ref="devguide/macrotutorial5.html#message-output"/>
+			<keyword name="Console output" ref="devguide/macrotutorial5.html#message-output"/>
+            
+        </keywords>
+        <files>
+            <file>*.png</file>
+            <file>index.html</file>
+            <file>userguide.html</file>
+            <file>devguide.html</file>
+            <file>userguide/*.html</file>
+            <file>devguide/*.html</file>
+            <file>css/*.css</file>
+            <file>resources/images/*.png</file>
+            <file>resources/licenses/*.txt</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

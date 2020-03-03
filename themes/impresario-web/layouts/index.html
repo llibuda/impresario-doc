@@ -1,0 +1,24 @@
+{{ $baseUrl := .Site.BaseURL }}
+{{ partial "header.html" . }}
+<main role="main">
+
+<div class="row">
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+	<div class="col-sm-10 jumbotron">
+		<p style="color:#8b0000">{{ if isset .Site.Params "description" }}{{ .Site.Params.description }}{{ else }}You can customize this text by params "description" in your <code>config.toml</code>.{{ end }}</p>
+	</div>
+</div>
+<div class="row doc-main">
+  <div class="col-sm-10 doc-main">
+      <article>
+      {{ range where .Site.Pages "Title" "_index" }}
+        <section>
+          {{ .Content }}
+        </section>
+      {{ end }}
+      </article>
+  </div>
+</div>
+
+</main>
+{{ partial "footer.html" . }}

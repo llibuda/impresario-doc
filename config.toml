@@ -1,0 +1,72 @@
+metadataformat = "yaml"
+canonifyurls=false
+disableKinds=["RSS","sitemap","404","taxonomy","taxonomyTerm"]
+
+baseurl = "https://llibuda.github.io/impresario/web"
+languageCode = "en-us"
+title = "Impresario 2.1"
+copyright = "Copyright 2015-2020 Lars Libuda"
+
+[[menu.main]]
+    Name = "User's Guide"
+    Identifier = "userguide"
+    weight = 2
+    url = "/userguide.html"
+    
+[[menu.main]]
+    Name = "Developer's Guide"
+    Identifier = "devguide"
+    weight = 3
+    url = "/devguide.html"
+
+[params]
+    noCategoryLink=true
+    description="This project is work in progress! And as I do this in my spare time besides other interests it will develop steadily but slowly."
+	
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xHTML = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "friendly"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1	

@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+<main>
+  <article>
+  {{ range where .Site.Pages "Title" "_index" }}
+    {{ .Content }}
+  {{ end }}
+  </article>
+  <aside>
+    <div id="TableOfContents">
+      <p>Guides</p>
+      <nav id="TableOfContents">
+        <ul>
+        {{ range where .Site.Menus.main "Identifier" "!=" "download" }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </aside>
+</main>
+{{ partial "footer.html" . }}

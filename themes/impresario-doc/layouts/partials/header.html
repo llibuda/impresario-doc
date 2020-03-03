@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{{ $baseUrl := .Site.BaseURL }}
+{{ $isHomePage := .IsHome }}
+{{ $.Scratch.Add "Title" .Title }}
+{{ if and (eq .IsNode true) (eq $isHomePage false) }}
+  {{ $nodeUrl := .RelPermalink }}
+  {{ range .Site.Menus.main }}
+    {{ if in .URL $nodeUrl }}
+      {{ $.Scratch.Set "Title" .Name }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $title := $.Scratch.Get "Title" }}
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+		<link rel="icon" href="{{ $baseUrl }}/impresario.png">
+		<title>{{ if eq $isHomePage true }} {{ .Site.Title }} {{else}}{{ $title }} - {{ .Site.Title }}{{ end }}</title>
+		<link rel="stylesheet" href="{{ $baseUrl }}/css/layout.css">
+	</head>
+	
+  <body>
+    <header>
+      <h1>{{ if eq $isHomePage true }} {{ .Site.Title }} {{else}}{{ $title }}{{ end }}</h1>
+      <nav id="breadcrumb">
+        <ul>
+          {{ if eq $isHomePage false }}
+          <li><a href="{{ $baseUrl }}/index.html">Home</a></li>
+          {{ else }}
+          <li>Home</li>
+          {{ end }}
+          {{ if eq .IsPage true }}
+          {{ $currentNode := . }}
+          {{ range .Site.Menus.main }}
+          {{ if $currentNode.HasMenuCurrent .Menu . }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ range .Children }}
+            {{ if $currentNode.IsMenuCurrent .Menu . }}
+            <li>{{ .Name }}</li>
+            {{ end }}
+          {{ end }}  
+          {{ end }}
+        {{ end }}
+        {{ else if eq $isHomePage false }}
+          <li>{{ $title }}</li>
+        {{ end }}
+        </ul>
+      </nav>
+    </header>
