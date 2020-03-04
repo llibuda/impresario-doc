@@ -1,6 +1,6 @@
 # Impresario Documentation
 
-This repository contains the source code for Impresario's online help and its 
+This repository contains the source code for [Impresario](https://github.com/llibuda/impresario)'s online help and its 
 [GitHub pages](https://llibuda.github.io/impresario/web/index.html).
 
 ## License
