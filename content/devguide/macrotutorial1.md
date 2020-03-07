@@ -32,16 +32,6 @@ public:
   // Standard destructor
   ~MyMacroClass() override = default;
 
-  // Override clone method to provide correct class instance. 
-  // This method must be overridden in any case, otherwise 
-  // the macro cannot be used in Impresario. 
-  // The base class implementation just returns 0. The following
-  // line shows the minimal implementation.
-  MacroBase* clone() const override { 
-    return new MyMacroClass(); 
-  }
-
-protected:
   // Override this method if you need special one time 
   // preparation for processing in the onApply() method. 
   // The base class implementation just returns Ok.
@@ -81,11 +71,6 @@ private:
 #endif // MYMACROCLASS_H_
 {{</highlight>}}
 
-The public method `clone()` must always be implemented. Otherwise the macro cannot be added to any 
-[process graph]({{< relref "../userguide/introduction.md#impresario-process-graphs" >}}). 
-If this method is not implemented correctly, unpredictable behaviour of the whole system may occur.
-The simple implementation as shown in the example below is sufficient.
-
 Within the implementation of the macro's constructor it's creator, display name, description, 
 and group are declared (for details see [Setting up macro information]({{< relref "macrotutorial2.md" >}}))
 along with the input ports and output ports ([Setting up macro input and output ports]({{< relref "macrotutorial3.md" >}})), 
@@ -117,10 +102,6 @@ public:
   // standard destructor
   ~LtiCannyEdge(void) override = default;
 
-  // override clone method to provide correct class instance
-  MacroBase* clone() const override { return new LtiCannyEdge(); }
-
-protected:
   Status onInit() override;
   Status onApply() override;
   void onParametersChanged(ParameterSet& paramSet) override;

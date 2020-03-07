@@ -395,32 +395,6 @@ The following methods need to overridden in a macro class. These methods are cal
 <hr>
 <table class="apideclaration">
   <tr>
-    <td><code>virtual MacroBase* clone (&nbsp;)</code></td>
-  </tr>
-</table>
-<table class="apidescription">
-  <tr>
-    <td>&nbsp;</td>
-    <td>
-      Called by Impresario every time the macro is added to a process graph. This method always has to be overriden otherwise the macro cannot 
-      be used in Impresario. The base implementation just returns <code>nullptr</code>. 
-      <dl>
-        <dt>Returns:</dt>
-        <dd>
-          A pointer to a new created instance of the macro class.
-        </dd>
-      </dl>
-      <dl>
-        <dt>See also:</dt>
-        <dd><a href="{{% ref "macrotutorial1.md" %}}">Creating a macro</a></dd>
-      </dl>
-    </td>
-  </tr>
-</table>
-
-<hr>
-<table class="apideclaration">
-  <tr>
     <td><code>virtual Status onInit (&nbsp;)</code></td>
   </tr>
 </table>
