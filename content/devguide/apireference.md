@@ -42,6 +42,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>
       <dl>
+        <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial2.md" %}}">Setting up macro information</a></dd>
       </dl>
@@ -75,6 +76,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial2.md" %}}">Setting up macro information</a></dd>
       </dl>
@@ -108,6 +110,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial2.md" %}}">Setting up macro information</a></dd>
       </dl>
@@ -141,6 +144,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial2.md" %}}">Setting up macro information</a></dd>
       </dl>
@@ -175,6 +179,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "advancedparameter.md#create-your-own-property-widget" %}}">Advanced parameter presentation</a></dd>
       </dl>
@@ -228,6 +233,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial3.md" %}}">Setting up macro input and output ports</a></dd>
       </dl>
@@ -281,6 +287,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial3.md" %}}">Setting up macro input and output ports</a></dd>
       </dl>
@@ -382,6 +389,7 @@ All methods in this section must be called in the macro's constructor. They are 
         </dd>
       </dl>      
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial4.md#defining-parameters-with-default-view" %}}">Setting up macro parameters</a></dd>
       </dl>
@@ -391,6 +399,33 @@ All methods in this section must be called in the macro's constructor. They are 
 
 # Overridables
 The following methods need to overridden in a macro class. These methods are called by Impresario.
+
+<hr>
+<table class="apideclaration">
+  <tr>
+    <td><code>virtual MacroBase* clone (&nbsp;)</code></td>
+  </tr>
+</table>
+<table class="apidescription">
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+      Called by Impresario every time the macro is added to a process graph. This method always has to be overriden otherwise the macro cannot 
+      be used in Impresario. The base implementation just returns <code>nullptr</code>. 
+      <dl>
+        <dt>Returns:</dt>
+        <dd>
+          A pointer to a new created instance of the macro class.
+        </dd>
+      </dl>
+      <dl>
+	    <dt>Since API Version: 1.0.0 - Obsolete since API Version: 1.0.1</dt>
+        <!-- <dt>See also:</dt>
+             <dd><a href="{{% ref "macrotutorial1.md" %}}">Creating a macro</a></dd> -->
+      </dl>
+    </td>
+  </tr>
+</table>
 
 <hr>
 <table class="apideclaration">
@@ -412,6 +447,7 @@ The following methods need to overridden in a macro class. These methods are cal
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#overridables" %}}">Processing data</a></dd>
       </dl>
@@ -440,6 +476,7 @@ The following methods need to overridden in a macro class. These methods are cal
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#overridables" %}}">Processing data</a></dd>
       </dl>
@@ -467,6 +504,7 @@ The following methods need to overridden in a macro class. These methods are cal
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#overridables" %}}">Processing data</a></dd>
       </dl>
@@ -503,6 +541,7 @@ The following methods need to overridden in a macro class. These methods are cal
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#overridables" %}}">Processing data</a></dd>
       </dl>
@@ -551,6 +590,7 @@ Access methods provide access to inputs, outputs, and parameters in the overridd
         </dd>
       </dl>      
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#access-methods" %}}">Processing data</a></dd>
       </dl>
@@ -594,6 +634,7 @@ Access methods provide access to inputs, outputs, and parameters in the overridd
         </dd>
       </dl>      
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#access-methods" %}}">Processing data</a></dd>
       </dl>
@@ -637,6 +678,7 @@ Access methods provide access to inputs, outputs, and parameters in the overridd
         </dd>
       </dl>      
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#access-methods" %}}">Processing data</a></dd>
       </dl>
@@ -680,6 +722,7 @@ Access methods provide access to inputs, outputs, and parameters in the overridd
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#access-methods" %}}">Processing data</a></dd>
       </dl>
@@ -717,6 +760,7 @@ The following methods are available for providing more information.
         </dd>
       </dl>
       <dl>
+	    <dt>Since API Version: 1.0.0</dt>
         <dt>See also:</dt>
         <dd><a href="{{% ref "macrotutorial5.md#message-output" %}}">Processing data</a></dd>
       </dl>
