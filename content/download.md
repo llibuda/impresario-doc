@@ -37,12 +37,12 @@ Please refer to the User's Guide for information about the [installation]({{< re
 ## Windows 64bit binaries
 [Impresario 2.1.1](https://github.com/llibuda/impresario/releases/download/2.1.1/Impresario-win64-2.1.1.exe)
 
-[Impresario example macro libraries 1.1.1](https://github.com/llibuda/impresario-macros/releases/download/1.1.1/ImpresarioMacros-win64-1.1.1.exe)
+[Impresario example macro libraries 1.1.2](https://github.com/llibuda/impresario-macros/releases/download/1.1.2/ImpresarioMacros-win64-1.1.2.exe)
 
 ## Linux 64bit binaries
 [Impresario 2.1.1](https://github.com/llibuda/impresario/releases/download/2.1.1/Impresario-linux64-2.1.1.run)
 
-[Impresario example macro libraries 1.1.1](https://github.com/llibuda/impresario-macros/releases/download/1.1.1/ImpresarioMacros-linux64-1.1.1.run)
+[Impresario example macro libraries 1.1.2](https://github.com/llibuda/impresario-macros/releases/download/1.1.2/ImpresarioMacros-linux64-1.1.2.run)
 
 # Source code
 The latest source code is available on GitHub for download.

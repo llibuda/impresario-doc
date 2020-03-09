@@ -46,6 +46,11 @@ weight: 11
     
 # Impresario Macros
 
+## Version 1.1.2
+* Release date: March, 9th 2020
+* Release notes:
+  - Adapted macros to Impresario API 1.0.1
+
 ## Version 1.1.1
 * Release date: March, 4th 2020
 * Release notes:
