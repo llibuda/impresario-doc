@@ -31,6 +31,7 @@ impresario
 │  │  ├─ components
 │  │  ├─ impresario   
 │  │  └─ misc
+│  ├─ impresario-interface_1.0.0
 │  └─ impresario-interface_1.0.0
 ├─ doc
 ├─ licenses
@@ -64,6 +65,7 @@ impresario
 │  │  ├─ components
 │  │  ├─ impresario
 │  │  └─ misc
+│  ├─ impresario-interface_1.0.0
 │  └─ impresario-interface_1.0.0
 ├─ doc
 ├─ lib

@@ -16,7 +16,7 @@ you need a development enviroment.
 
 In general three components are required:
 
-* Qt Framework version 5.12 LTS or higher with QtCreator. 
+* Qt Framework version 5.15 or higher with QtCreator. 
 * A suitable compiler for QtCreator. The compiler must support at least the C++11 standard.
 * _Git_ as version control system
 
@@ -24,7 +24,7 @@ The following two subsections show how to set it up on Windows and Linux systems
 
 # Setup for Windows systems
 On Windows systems Impresario supports Microsoft's C++ compilers which are shipped with Visual Studio. At the time of this writing
-Impresario is built with the compiler shipped with Visual Studio 2017. Therefore this one is recommended.
+Impresario is built with the compiler shipped with Visual Studio 2019. Therefore this one is recommended.
 
 * Go to [http://www.qt.io/download-open-source/](http://www.qt.io/download-open-source/) and download the Qt Online Installer for Windows.
 * Run the downloaded installer. After creating a Qt account (it's free) you can choose which Qt components to install. The following 
@@ -33,9 +33,9 @@ Impresario is built with the compiler shipped with Visual Studio 2017. Therefore
      alt="Qt components to be installed on Windows" >}}
   Next to the pre-build Qt core libraries for the compiler it is also mandatory to install the _Qt WebEngine_ component which is used
   by Impresario's help system.
-* Download Visual Studio 2017 Community Edition free of charge from 
+* Download Visual Studio 2019 Community Edition free of charge from 
   [https://visualstudio.microsoft.com/de/vs/older-downloads/](https://visualstudio.microsoft.com/de/vs/older-downloads/). 
-  Visual Studion 2017 may have been moved to the older versions section so that you have to browse for it. After download
+  Visual Studion 2019 may have been moved to the older versions section so that you have to browse for it. After download
   run the installer.
 * Download Git for Windows from [https://git-scm.com/download/win](https://git-scm.com/download/win). Afterwards, run the installer.
 

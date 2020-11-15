@@ -41,6 +41,7 @@ available inplace editors with their properties:
 : Simple line editor for string datatypes.
 : *Properties (Default value)*:
   * `maxLength (255)`: Maximum length of input
+  * `readOnly (false)`: Makes the string read only
 
 {{<path "StringFileSelector" >}}
 : Line editor for file name input. A button opens a separate file selection dialog. The file name is contained in a string.

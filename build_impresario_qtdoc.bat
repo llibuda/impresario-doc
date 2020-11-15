@@ -1,6 +1,6 @@
 echo off
 echo Setting up environment for hugo usage...
-set PATH=D:\Qt\5.12.7\msvc2017_64\bin;D:\Tools\hugo;%PATH%
+set PATH=C:\Qt\5.12.7\msvc2017_64\bin;D:\Tools\hugo;%PATH%
 echo Building Impresario documentation pages...
 set HUGO_UGLYURLS=true
 hugo --destination="public_doc" --baseUrl="qthelp://impresario.2.1/doc" --theme="impresario-doc"
