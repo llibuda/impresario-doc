@@ -13,8 +13,15 @@ weight: 11
 
 # Impresario
 
+## Version 2.1.2
+* Release date: December 2020
+* Release notes:
+  - Rebuild QML part with QtQuickControls 2
+  - Added *readOnly* property to StringLineEdit component
+  - Impresario is now based on Qt 5.15.1 LTS
+  
 ## Version 2.1.1
-* Release date: March, 4th 2020
+* Release date: March 2020
 * Release notes:
   - Completed developer's guide in online help
   - Added progress bar on start up while loading libraries
@@ -26,7 +33,7 @@ weight: 11
   - Various small bug fixes
 
 ## Version 2.1.0
-* Release date: March, 18th 2017
+* Release date: March 2017
 * Release notes:
   - Added online help
   - Improved directory handling. All directories are now saved as
@@ -39,20 +46,27 @@ weight: 11
   - On Windows platform Microsoft C++ Compiler 19.0 from Visual Studio 2015 is supported for 32bit and 64bit builds
 
 ## Version 2.0.0
-* Release date: December, 4th 2015
+* Release date: December 2015
 * Release notes:
   - Initial 2.0.0 release with all the bugs you will find
   - Support of Impresario API 1.0
     
 # Impresario Macros
 
+## Version 1.1.3
+* Release date: December 2020
+* Release notes:
+  - Rebuild QML part with QtQuickControls 2
+  - Usage of *readOnly* property of StringLineEdit component in macros lti::loadImages and cv::loadImages
+  - Viewer macros are now based on Qt 5.15.1 LTS
+
 ## Version 1.1.2
-* Release date: March, 9th 2020
+* Release date: March 2020
 * Release notes:
   - Adapted macros to Impresario API 1.0.1
 
 ## Version 1.1.1
-* Release date: March, 4th 2020
+* Release date: March 2020
 * Release notes:
   - C++11 compatible compiler is now required
   - Code base is modernized based on C++11 standard
@@ -61,7 +75,7 @@ weight: 11
   - Various small bug fixes
 
 ## Version 1.1.0
-* Release date: March, 18th 2017
+* Release date: March 2017
 * Release notes:
   - OpenCV macros are now based on OpenCV 3.1.0
   - Improved build configurations for easier support of new compilers
@@ -69,7 +83,7 @@ weight: 11
   - Improved parameter handling for lti::convolution macro
 
 ## Version 1.0.0
-* Release date: December, 4th 2015
+* Release date: December 2015
 * Release notes:
   - Initial 1.0.0 release to demonstrate Impresario's features
   - Macros are not yet fully fault tolerant and allow for improvements
