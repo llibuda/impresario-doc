@@ -32,7 +32,7 @@ impresario
 │  │  ├─ impresario   
 │  │  └─ misc
 │  ├─ impresario-interface_1.0.0
-│  └─ impresario-interface_1.0.0
+│  └─ impresario-interface_1.0.1
 ├─ doc
 ├─ licenses
 └─ resources
@@ -66,7 +66,7 @@ impresario
 │  │  ├─ impresario
 │  │  └─ misc
 │  ├─ impresario-interface_1.0.0
-│  └─ impresario-interface_1.0.0
+│  └─ impresario-interface_1.0.1
 ├─ doc
 ├─ lib
 ├─ licenses
