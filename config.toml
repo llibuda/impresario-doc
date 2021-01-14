@@ -5,7 +5,7 @@ disableKinds=["RSS","sitemap","404","taxonomy","taxonomyTerm"]
 baseurl = "https://llibuda.github.io/impresario/web"
 languageCode = "en-us"
 title = "Impresario 2.1"
-copyright = "Copyright 2015-2020 Lars Libuda"
+copyright = "Copyright 2015-2021 Lars Libuda"
 
 [[menu.main]]
     Name = "User's Guide"

@@ -35,12 +35,12 @@ of how Impresario works. Without any macro libraries Impresario is not very inte
 Please refer to the User's Guide for information about the [installation]({{< relref "userguide/install.md" >}}).
 
 ## Windows 64bit binaries
-[Impresario 2.1.2](https://github.com/llibuda/impresario/releases/download/2.1.2/Impresario-win64-2.1.2.exe)
+[Impresario 2.1.3](https://github.com/llibuda/impresario/releases/download/2.1.3/Impresario-win64-2.1.3.exe)
 
 [Impresario example macro libraries 1.1.3](https://github.com/llibuda/impresario-macros/releases/download/1.1.3/ImpresarioMacros-win64-1.1.3.exe)
 
 ## Linux 64bit binaries
-[Impresario 2.1.2](https://github.com/llibuda/impresario/releases/download/2.1.2/Impresario-linux64-2.1.2.run)
+[Impresario 2.1.3](https://github.com/llibuda/impresario/releases/download/2.1.3/Impresario-linux64-2.1.3.run)
 
 [Impresario example macro libraries 1.1.3](https://github.com/llibuda/impresario-macros/releases/download/1.1.3/ImpresarioMacros-linux64-1.1.3.run)
 

@@ -13,6 +13,12 @@ weight: 11
 
 # Impresario
 
+## Version 2.1.3
+* Release date: January 2021
+* Release notes:
+  - High DPI support
+  - Code cleanup: Replaced deprecated code
+
 ## Version 2.1.2
 * Release date: December 2020
 * Release notes:
